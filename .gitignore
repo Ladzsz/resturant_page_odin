@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# Production build
+dist/
+
+# Optional npm cache directory
+.npm/
+
+# Logs
+logs/
+*.log
+
+# OS specific files
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
