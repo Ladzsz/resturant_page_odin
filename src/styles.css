@@ -1,0 +1,68 @@
+/*styling the backround color*/
+html {
+    background-color: bisque;
+}
+
+/*styling body and html*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+body {
+    min-height: 100vh;
+}
+
+body {
+    background-image: url('./images/Resturant_back.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  
+
+/*styling header*/
+
+header {
+    background-color: gray; 
+    padding: 40px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+/*styling header nav*/
+
+header > nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*styling header buttons*/
+
+.nav-btn {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    background-color: aquamarine;
+}
+
+/*styling content div area*/
+
+#content {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
