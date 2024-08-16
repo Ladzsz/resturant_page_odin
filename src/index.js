@@ -10,6 +10,9 @@ import { Home_sec } from './sub_scripts/home.js';
 //importing menu section
 import { Menu_sec } from './sub_scripts/menu.js';
 
+//importing contact section 
+import { Contact_sec } from './sub_scripts/contact.js';
+
 // Call the pageLoad function when the DOM content is fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     pageLoad();
