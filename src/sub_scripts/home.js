@@ -59,3 +59,4 @@ export function Home_sec() {
     location_div.appendChild(location_div_text);    
 }
 
+

@@ -106,3 +106,4 @@ export function Menu_sec() {
     //adding main courses lists to div
     Main_course_div.appendChild(ul_main_courses);
 }
+
