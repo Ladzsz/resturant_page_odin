@@ -17,3 +17,6 @@ logs/
 # Editor directories and files
 .vscode/
 .idea/
+
+# nodemodules
+node_modules/
