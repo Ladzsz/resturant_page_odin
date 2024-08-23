@@ -1,0 +1,24 @@
+/*styling menu div*/
+.menu_div {
+    text-align: center;
+}
+
+.menu_div h2:first-of-type {
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+/*styling beverages div*/
+.beverages_div {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/*styling sides div*/
+.sides_div {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+
