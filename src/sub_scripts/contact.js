@@ -1,7 +1,13 @@
+//importing style sheet
+import "../PageStyles/contactStyles.css";
+
 //function to create contact section 
 export function Contact_sec() {
     //bringing in div to add things too
     let content_area = document.getElementById('content');
+
+    // Clear the content area before adding new content
+    content_area.innerHTML = '';
 
     //creating and adding div to content area 
     const contact_div = document.createElement('div');
@@ -22,8 +28,8 @@ export function Contact_sec() {
     // Array of contact information
     const contact_info = [
         { label: "Name", value: "Super Awesome Restaurant" },
-        { label: "Email", value: "contact@SuperAwesomeRestaurant.com" },
-        { label: "Phone Number", value: "(773) 782-7665" }
+        { label: "Phone Number", value: "(773) 782-7665" },
+        { label: "Email", value: "contact@SuperAwesomeRestaurant.com" }
     ];
 
     // Creating unordered list for contact info

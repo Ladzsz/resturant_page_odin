@@ -1,7 +1,13 @@
+//importing styles
+import "../PageStyles/homeStyles.css";
+
 //function to create home section
 export function Home_sec() {
     //bringing in div to add things too
     let content_area = document.getElementById('content');
+
+     // Clear the content area before adding new content
+     content_area.innerHTML = '';
 
     //creating and adding div to content area 
     const about_div = document.createElement('div');

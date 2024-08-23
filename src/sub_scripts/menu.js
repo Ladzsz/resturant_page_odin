@@ -1,7 +1,13 @@
+//linlking css
+import "../PageStyles/menuStyles.css";
+
 //function to create menu section
 export function Menu_sec() {
     //bringing in div to add things too
     let content_area = document.getElementById('content');
+
+    // Clear the content area before adding new content
+    content_area.innerHTML = '';
 
     //creating and adding menu div
     const menu_div = document.createElement("div");

@@ -1,0 +1,19 @@
+/*styling about div*/
+.about_div {
+    margin-bottom: 5%;
+}
+
+/*styling hours div*/
+.hours_div {
+    margin-bottom: 5%;
+}
+
+/*styling the list*/
+ul {
+    list-style-type: none;
+}
+
+/*styling locations div*/
+.location_div {
+    margin-bottom: 3%;
+}

@@ -1,0 +1,15 @@
+/*styling contact div*/
+.contact_div {
+    margin-bottom: 5%;
+
+}
+
+.contact_div h2:first-of-type {
+    margin-bottom: 3%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
